@@ -1,0 +1,136 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.nav--logo {
+  height: 100%;
+  margin-right: 6px;
+}
+.nav--name {
+  font-size: 30px;
+}
+
+.section {
+  width: 600px;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.form {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  padding: 20px;
+  gap: 10px;
+}
+
+.inputLeft,
+.inputRight {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  font-size: 18px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.favorite-title {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.favorite-info {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.favorite-text {
+  position: absolute;
+
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+ion-icon {
+  position: absolute;
+  font-size: 32px;
+  color: #711f8d;
+  --ionicon-stroke-width: 40px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  left: 90%;
+  top: 3%;
+}
+
+ion-icon:hover {
+  color: #a818da;
+}
